@@ -1,0 +1,7 @@
+$ cd android
+$ ./gradlew bundleRelease
+
+
+$ java -jar "E:\Softwares\bundletool-all-1.2.0.jar" build-apks --bundle="E:\Development\mobile\pojects\OCP2\android\app\build\outputs\bundle\release\app-release.aab" --output="E:\Development\mobile\pojects\OCP2\android\app\build\outputs\bundle\release\all.apks" --ks="E:\Development\mobile\pojects\OCP2\android\app\my-upload-key.keystore" --ks-key-alias=my-key-alias
+
+password: oilindia
