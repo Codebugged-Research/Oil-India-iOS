@@ -17,9 +17,9 @@
 		2DCD954D1E0B4F2C00145EB5 /* OCP2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OCP2Tests.m */; };
 		62E2FF30CC0204BFACC2C19F /* libPods-OCP2-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB0F34AFB07A03960698D09 /* libPods-OCP2-tvOS.a */; };
 		76024D9DD4F4C6C747247367 /* libPods-OCP2-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C82A10987F5D08F6321C67F0 /* libPods-OCP2-tvOSTests.a */; };
-		78ECDDBB2B5EE78EA051AD65 /* libPods-OCP2-OCP2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB6A96E76E15FBDAB380EA5 /* libPods-OCP2-OCP2Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A9F22502EB544D8EAF13D9CD /* libPods-OCP2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 469D73704502675AC5FD4C53 /* libPods-OCP2.a */; };
+		F7CD1B1FB7369B2A7F6F1DD5 /* libPods-OCP2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E25B1D8C7285666B34CC95F /* libPods-OCP2Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +53,15 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OCP2/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OCP2/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OCP2/main.m; sourceTree = "<group>"; };
+		282672E2946A74A4BE51773D /* Pods-OCP2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCP2Tests.release.xcconfig"; path = "Target Support Files/Pods-OCP2Tests/Pods-OCP2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* OCP2-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCP2-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* OCP2-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCP2-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3046937C98E60E8DEE367872 /* Pods-OCP2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCP2Tests.debug.xcconfig"; path = "Target Support Files/Pods-OCP2Tests/Pods-OCP2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E25B1D8C7285666B34CC95F /* libPods-OCP2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCP2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		469D73704502675AC5FD4C53 /* libPods-OCP2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCP2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F58E9A770B2E1EE7CDFAB56 /* Pods-OCP2-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCP2-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-OCP2-tvOSTests/Pods-OCP2-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E948D4D0CDC6716907414DE /* Pods-OCP2-OCP2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCP2-OCP2Tests.debug.xcconfig"; path = "Target Support Files/Pods-OCP2-OCP2Tests/Pods-OCP2-OCP2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6389116CC620F2BC64F57975 /* Pods-OCP2-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCP2-tvOS.release.xcconfig"; path = "Target Support Files/Pods-OCP2-tvOS/Pods-OCP2-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		7DB6A96E76E15FBDAB380EA5 /* libPods-OCP2-OCP2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCP2-OCP2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OCP2/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C667DEA89A61316F668D8039 /* Pods-OCP2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCP2.release.xcconfig"; path = "Target Support Files/Pods-OCP2/Pods-OCP2.release.xcconfig"; sourceTree = "<group>"; };
 		C82A10987F5D08F6321C67F0 /* libPods-OCP2-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCP2-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78ECDDBB2B5EE78EA051AD65 /* libPods-OCP2-OCP2Tests.a in Frameworks */,
+				F7CD1B1FB7369B2A7F6F1DD5 /* libPods-OCP2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +144,9 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				469D73704502675AC5FD4C53 /* libPods-OCP2.a */,
-				7DB6A96E76E15FBDAB380EA5 /* libPods-OCP2-OCP2Tests.a */,
 				CCB0F34AFB07A03960698D09 /* libPods-OCP2-tvOS.a */,
 				C82A10987F5D08F6321C67F0 /* libPods-OCP2-tvOSTests.a */,
+				3E25B1D8C7285666B34CC95F /* libPods-OCP2Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +162,8 @@
 				6389116CC620F2BC64F57975 /* Pods-OCP2-tvOS.release.xcconfig */,
 				4F58E9A770B2E1EE7CDFAB56 /* Pods-OCP2-tvOSTests.debug.xcconfig */,
 				D72E5CF80E1553FF5B3311CC /* Pods-OCP2-tvOSTests.release.xcconfig */,
+				3046937C98E60E8DEE367872 /* Pods-OCP2Tests.debug.xcconfig */,
+				282672E2946A74A4BE51773D /* Pods-OCP2Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -208,7 +212,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				79F443D01351A4DEDF1220E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,7 +296,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = KAA2986LN5;
+						DevelopmentTeam = 76N3H52224;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -392,7 +395,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OCP2-OCP2Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OCP2Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -429,24 +432,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCP2/Pods-OCP2-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79F443D01351A4DEDF1220E3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OCP2-OCP2Tests/Pods-OCP2-OCP2Tests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCP2-OCP2Tests/Pods-OCP2-OCP2Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		96A05855E3830034CA1DA672 /* [CP] Check Pods Manifest.lock */ = {
@@ -608,7 +593,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E948D4D0CDC6716907414DE /* Pods-OCP2-OCP2Tests.debug.xcconfig */;
+			baseConfigurationReference = 3046937C98E60E8DEE367872 /* Pods-OCP2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +616,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03AB9750FC55C8C2F17029F9 /* Pods-OCP2-OCP2Tests.release.xcconfig */;
+			baseConfigurationReference = 282672E2946A74A4BE51773D /* Pods-OCP2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -656,12 +641,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KAA2986LN5;
+				DEVELOPMENT_TEAM = 76N3H52224;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OCP2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -682,10 +667,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KAA2986LN5;
+				DEVELOPMENT_TEAM = 76N3H52224;
 				INFOPLIST_FILE = OCP2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
